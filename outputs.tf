@@ -1,5 +1,5 @@
 output "vpc_id" {
-    vpc_id = module.vpc.vpc.id
+    value = module.vpc.vpc.id
 }
 
 output "public_subnet" {
